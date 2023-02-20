@@ -1,0 +1,197 @@
+/* body{
+    margin-left: 100px;
+    margin-right: 100px;
+} */
+.header{
+    justify-content:space-between;
+    display: flex;
+    margin: 35px;
+}
+.header h1{
+    margin: 0px;
+    padding: 0px;
+    font-size: 35px;
+    font-weight: serif;
+}
+.header title{
+    margin: 0;
+}
+.header small{
+    font-size: 18px;
+}
+.header ul{
+    margin-top: 20px;
+    list-style: none;
+    float: right;
+}
+.header li{
+    display: inline;
+}
+.header li a{
+    font-weight: bold;
+    font-size: 18px;
+}
+.header li a:hover{
+    color: rgb(92, 227, 205);
+}
+.header a{
+    text-decoration: none;
+    font-size: 15px;
+    padding: 15px;
+}
+.section-1{
+    margin: 30px;
+}
+.section-1 img{
+    float:left;
+    width: 33%;
+    margin-right: 20px;
+}
+.section-1 h1{
+    margin: 0px;
+    font-size: 70px;
+    font-weight: lighter;
+}
+.section-1 p{
+    font-size: 20px;
+    color: rgb(114, 149, 162);
+}
+.section-1 div{
+    padding: 150px;
+}
+.section-1 button{
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: lightskyblue;
+    color: white;
+    font-size: 16px;
+}
+.section-1 button:hover{
+    color: black;
+    background-color: grey;
+}
+.section-2{
+    margin: 30px;
+}
+.section-2 button{
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: lightskyblue;
+    color: white;
+    font-size: 16px;
+}
+.section-2 button:hover{
+    color: black;
+    background-color: grey;
+}
+.section-2 h1{
+    padding-left: 20px;
+}
+.section-2 img{
+    width: 100%;
+    height: 500px;
+}
+.block{
+    float: left;
+    width: 30%;
+    margin: 20px;
+    box-sizing: border-box;
+}
+.par{
+    display: flex;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: gray;
+    text-align: center;
+}
+.section-3 img{
+    width: 150px;
+    height: 130px;
+    border: 1px solid black;
+    padding: 5px;
+    float: left;
+    margin-right: 20px;
+}
+.section-3 div{
+    padding: 20px;
+}
+.section-3 .container-1{
+    display: flex;
+}
+.section-3 .container-1 .block{
+    width: 33.3%;
+}
+.section-3 .container-2 .block{
+    width: 33.3%;
+}
+.section-3 .container-2{
+    display: flex;
+}
+.section-4{
+    justify-content: space-between;
+    display: flex;
+    background-color: rgb(119, 119, 120);
+    padding: 20px;
+}
+.section-4{
+    display: flex;
+    font-size: large;
+}
+.section-4 .block-1{
+    flex: 1;
+    
+}
+
+.section-4 .block-2{
+    flex: 1;
+    padding-left: 50px;
+}
+
+.section-4 .block-3{
+    flex: 1;
+    padding-left: 50px;
+}
+.section-4 .block-3 a{
+    padding-left: 300px;
+}
+.section-4 .block-4{
+    flex: 1;
+    padding-left: 50px;
+    
+}
+.section-4 .block-2 a{
+    color: skyblue;
+    text-decoration: none;
+}
+.section-4 .block-4 input{
+    display: block;
+    margin: 10px;
+    padding: 8px;
+    font-size: 18px;
+}
+.section-4 .block-4 button{
+    margin-left: 10px;
+    font-size: 20px;
+    background-color: lightskyblue;
+    color: white;
+    border: none;
+    padding: 8px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.section-4 .block-4 button:hover{
+    color: black;
+    background-color: grey;
+}
+.footer{
+    background-color: rgb(77, 76, 81);
+    padding: 18px;
+    color: white;
+
+}
